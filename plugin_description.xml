@@ -1,0 +1,10 @@
+<library path="lib/libreachability_map_visualizer">
+   <class name="reachability_map_visualizer/ReachabilityMap"
+         type="reachability_map_visualizer::ReachMapDisplay"
+         base_class_type="rviz::Display">
+    <description>
+      Displays poses and spheres of reachability map
+    </description>
+    <message_type>reachability_map_visualizer::WorkSpace</message_type>
+  </class>
+</library>
